@@ -1,0 +1,61 @@
+{
+    "name": "website/laravel-admin",
+    "description": "laravel admin",
+    "type": "library",
+    "keywords": ["laravel", "admin", "grid", "form"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sayansr26",
+            "email": "sayanchoudhury16@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "symfony/dom-crawler": "~3.1|~4.0|~5.0",
+        "laravel/framework": ">=5.5",
+        "doctrine/dbal": "2.*"
+    },
+    "require-dev": {
+        "laravel/laravel": ">=5.5",
+        "fzaninotto/faker": "~1.4",
+        "intervention/image": "~2.3",
+        "laravel/browser-kit-testing": "^6.0",
+        "spatie/phpunit-watcher": "^1.22.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Website\\Admin\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Models\\": "tests/models",
+            "Tests\\Controllers\\": "tests/controllers"
+        },
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
+    "suggest": {
+        "intervention/image": "Required to handling and manipulation upload images (~2.3).",
+        "spatie/eloquent-sortable": "Required to built orderable gird."
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Website\\Admin\\AdminServiceProvider"
+            ],
+            "aliases": {
+                "Admin": "Website\\Admin\\Facades\\Admin"
+            }
+        }
+    }
+}
