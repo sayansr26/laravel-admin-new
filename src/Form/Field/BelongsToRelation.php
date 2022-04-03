@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Admin;
-use Website\Admin\Grid\Selectable;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Grid\Selectable;
 
 trait BelongsToRelation
 {
@@ -37,7 +37,7 @@ trait BelongsToRelation
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of Website\Admin\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of Jewel\Admin\Grid\Selectable"
             );
         }
 
@@ -143,7 +143,7 @@ STYLE;
     }
 
     /**
-     * @return \Website\Admin\Grid
+     * @return \Jewel\Admin\Grid
      */
     protected function makeGrid()
     {

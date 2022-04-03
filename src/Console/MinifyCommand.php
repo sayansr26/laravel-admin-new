@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Console;
+namespace Jewel\Admin\Console;
 
-use Website\Admin\Admin;
-use Website\Admin\Facades\Admin as AdminFacade;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Facades\Admin as AdminFacade;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use MatthiasMullie\Minify;

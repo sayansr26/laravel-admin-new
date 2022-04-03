@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Tools;
+namespace Jewel\Admin\Grid\Tools;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 use Illuminate\Support\Collection;
 
 class BatchActions extends AbstractTool

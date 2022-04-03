@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Tools;
+namespace Jewel\Admin\Grid\Tools;
 
-use Website\Admin\Grid\Column;
+use Jewel\Admin\Grid\Column;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

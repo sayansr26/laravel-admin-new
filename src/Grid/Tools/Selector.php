@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Tools;
+namespace Jewel\Admin\Grid\Tools;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

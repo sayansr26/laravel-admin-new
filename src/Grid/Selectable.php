@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Grid;
+namespace Jewel\Admin\Grid;
 
-use Website\Admin\Grid;
-use Website\Admin\Grid\Selectable\Checkbox;
-use Website\Admin\Grid\Selectable\Radio;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Grid\Selectable\Checkbox;
+use Jewel\Admin\Grid\Selectable\Radio;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 

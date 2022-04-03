@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Show;
+namespace Jewel\Admin\Show;
 
-use Website\Admin\Show;
+use Jewel\Admin\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

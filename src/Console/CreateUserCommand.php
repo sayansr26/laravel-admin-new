@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Console;
+namespace Jewel\Admin\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;

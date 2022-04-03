@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
 use Closure;
-use Website\Admin\Grid\Tools\Header;
+use Jewel\Admin\Grid\Tools\Header;
 
 trait HasHeader
 {

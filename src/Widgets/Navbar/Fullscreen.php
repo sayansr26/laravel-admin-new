@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Widgets\Navbar;
+namespace Jewel\Admin\Widgets\Navbar;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

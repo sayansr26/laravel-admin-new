@@ -1,12 +1,12 @@
 <?php
 
-namespace Website\Admin\Controllers;
+namespace Jewel\Admin\Controllers;
 
-use Website\Admin\Actions\Action;
-use Website\Admin\Actions\GridAction;
-use Website\Admin\Actions\Response;
-use Website\Admin\Actions\RowAction;
-use Website\Admin\Widgets\Form;
+use Jewel\Admin\Actions\Action;
+use Jewel\Admin\Actions\GridAction;
+use Jewel\Admin\Actions\Response;
+use Jewel\Admin\Actions\RowAction;
+use Jewel\Admin\Widgets\Form;
 use Exception;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -158,7 +158,7 @@ class HandleController extends Controller
         $class = str_replace('_', '\\', $class);
 
         if (class_exists($class)) {
-            /** @var \Website\Admin\Grid\Selectable $selectable */
+            /** @var \Jewel\Admin\Grid\Selectable $selectable */
             $selectable = new $class(...array_values($args));
 
             return $selectable->render();

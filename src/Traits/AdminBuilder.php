@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Traits;
+namespace Jewel\Admin\Traits;
 
-use Website\Admin\Form;
-use Website\Admin\Grid;
-use Website\Admin\Tree;
+use Jewel\Admin\Form;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Tree;
 
 /**
  * @deprecated

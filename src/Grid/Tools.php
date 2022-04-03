@@ -1,12 +1,12 @@
 <?php
 
-namespace Website\Admin\Grid;
+namespace Jewel\Admin\Grid;
 
-use Website\Admin\Actions\GridAction;
-use Website\Admin\Grid;
-use Website\Admin\Grid\Tools\AbstractTool;
-use Website\Admin\Grid\Tools\BatchActions;
-use Website\Admin\Grid\Tools\FilterButton;
+use Jewel\Admin\Actions\GridAction;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Grid\Tools\AbstractTool;
+use Jewel\Admin\Grid\Tools\BatchActions;
+use Jewel\Admin\Grid\Tools\FilterButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

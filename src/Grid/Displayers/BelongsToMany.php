@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as Relation;
 use Illuminate\Support\Arr;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Filter\Layout;
+namespace Jewel\Admin\Grid\Filter\Layout;
 
-use Website\Admin\Grid\Filter;
+use Jewel\Admin\Grid\Filter;
 use Illuminate\Support\Collection;
 
 class Layout

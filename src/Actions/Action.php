@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Actions;
+namespace Jewel\Admin\Actions;
 
-use Website\Admin\Admin;
-use Website\Admin\Form\Field;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Form\Field;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin;
+namespace Jewel\Admin;
 
-use Website\Admin\Layout\Content;
+use Jewel\Admin\Layout\Content;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Blade;
@@ -84,7 +84,7 @@ class AdminServiceProvider extends ServiceProvider
         $this->compatibleBlade();
 
         Blade::directive('box', function ($title) {
-            return "<?php \$box = new \Website\Admin\Widgets\Box({$title}, '";
+            return "<?php \$box = new \Jewel\Admin\Widgets\Box({$title}, '";
         });
 
         Blade::directive('endbox', function ($expression) {

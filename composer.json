@@ -1,5 +1,5 @@
 {
-    "name": "website/laravel-admin",
+    "name": "jewel/laravel-admin",
     "description": "laravel admin",
     "type": "library",
     "keywords": ["laravel", "admin", "grid", "form"],
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Website\\Admin\\": "src/"
+            "Jewel\\Admin\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Website\\Admin\\AdminServiceProvider"
+                "Jewel\\Admin\\AdminServiceProvider"
             ],
             "aliases": {
-                "Admin": "Website\\Admin\\Facades\\Admin"
+                "Admin": "Jewel\\Admin\\Facades\\Admin"
             }
         }
     }

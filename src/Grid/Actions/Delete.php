@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Actions;
+namespace Jewel\Admin\Grid\Actions;
 
-use Website\Admin\Actions\Response;
-use Website\Admin\Actions\RowAction;
+use Jewel\Admin\Actions\Response;
+use Jewel\Admin\Actions\RowAction;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 

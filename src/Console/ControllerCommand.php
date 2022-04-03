@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Console;
+namespace Jewel\Admin\Console;
 
 class ControllerCommand extends MakeCommand
 {

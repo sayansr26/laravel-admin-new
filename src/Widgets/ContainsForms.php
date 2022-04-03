@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Widgets;
+namespace Jewel\Admin\Widgets;
 
 trait ContainsForms
 {
@@ -38,7 +38,7 @@ trait ContainsForms
 
         foreach ($forms as $name => $class) {
             if (!is_subclass_of($class, Form::class)) {
-                admin_error("Class [{$class}] must be a sub-class of [Website\Admin\Widgets\Form].");
+                admin_error("Class [{$class}] must be a sub-class of [Jewel\Admin\Widgets\Form].");
                 continue;
             }
 

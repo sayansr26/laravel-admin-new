@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Controllers;
+namespace Jewel\Admin\Controllers;
 
-use Website\Admin\Auth\Database\OperationLog;
-use Website\Admin\Grid;
+use Jewel\Admin\Auth\Database\OperationLog;
+use Jewel\Admin\Grid;
 use Illuminate\Support\Arr;
 
 class LogController extends AdminController

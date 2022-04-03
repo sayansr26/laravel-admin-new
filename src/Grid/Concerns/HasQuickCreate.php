@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
-use Website\Admin\Grid\Tools\QuickCreate;
+use Jewel\Admin\Grid\Tools\QuickCreate;
 
 trait HasQuickCreate
 {

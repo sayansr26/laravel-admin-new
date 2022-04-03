@@ -7,7 +7,7 @@ laravel-admin的数据表格默认支持导出csv文件，
 
 namespace App\Admin\Extensions;
 
-use Website\Admin\Grid\Exporters\AbstractExporter;
+use Jewel\Admin\Grid\Exporters\AbstractExporter;
 
 class CustomExporter extends AbstractExporter
 {

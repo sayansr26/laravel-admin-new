@@ -1,11 +1,11 @@
 <?php
 
-namespace Website\Admin\Grid\Column;
+namespace Jewel\Admin\Grid\Column;
 
 use Carbon\Carbon;
-use Website\Admin\Grid\Column;
-use Website\Admin\Grid\Displayers;
-use Website\Admin\Grid\Model;
+use Jewel\Admin\Grid\Column;
+use Jewel\Admin\Grid\Displayers;
+use Jewel\Admin\Grid\Model;
 use Illuminate\Support\Arr;
 
 /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Column;
+namespace Jewel\Admin\Grid\Column;
 
-use Website\Admin\Grid\Displayers;
+use Jewel\Admin\Grid\Displayers;
 
 trait InlineEditing
 {

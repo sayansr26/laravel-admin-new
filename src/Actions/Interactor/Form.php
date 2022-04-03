@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Actions\Interactor;
+namespace Jewel\Admin\Actions\Interactor;
 
-use Website\Admin\Actions\RowAction;
-use Website\Admin\Admin;
-use Website\Admin\Form\Field;
+use Jewel\Admin\Actions\RowAction;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Form\Field;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\ValidationException;

@@ -2,9 +2,9 @@
 
 Since version `1.5.6`, you can add the html element to the top navigation bar, open `app/Admin/bootstrap.php`:
 ```php
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 
-Admin::navbar(function (\Website\Admin\Widgets\Navbar $navbar) {
+Admin::navbar(function (\Jewel\Admin\Widgets\Navbar $navbar) {
 
     $navbar->left('html...');
 

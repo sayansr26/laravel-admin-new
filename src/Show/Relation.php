@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Show;
+namespace Jewel\Admin\Show;
 
-use Website\Admin\Grid;
-use Website\Admin\Show;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

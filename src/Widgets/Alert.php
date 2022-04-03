@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Widgets;
+namespace Jewel\Admin\Widgets;
 
 use Illuminate\Contracts\Support\Renderable;
 

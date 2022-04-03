@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid;
+namespace Jewel\Admin\Grid;
 
-use Website\Admin\Grid;
+use Jewel\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

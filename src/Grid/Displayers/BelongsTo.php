@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
-use Website\Admin\Admin;
-use Website\Admin\Grid\Selectable;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Grid\Selectable;
 
 class BelongsTo extends AbstractDisplayer
 {
@@ -38,7 +38,7 @@ class BelongsTo extends AbstractDisplayer
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of Website\Admin\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of Jewel\Admin\Grid\Selectable"
             );
         }
 

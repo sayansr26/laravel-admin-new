@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Middleware;
+namespace Jewel\Admin\Middleware;
 
-use Website\Admin\Auth\Database\OperationLog as OperationLogModel;
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Auth\Database\OperationLog as OperationLogModel;
+use Jewel\Admin\Facades\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

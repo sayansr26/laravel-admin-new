@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Form;
+namespace Jewel\Admin\Form;
 
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
-use Website\Admin\Actions\RowAction;
-use Website\Admin\Admin;
-use Website\Admin\Grid\Actions\Delete;
-use Website\Admin\Grid\Actions\Edit;
-use Website\Admin\Grid\Actions\Show;
+use Jewel\Admin\Actions\RowAction;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Grid\Actions\Delete;
+use Jewel\Admin\Grid\Actions\Edit;
+use Jewel\Admin\Grid\Actions\Show;
 
 class DropdownActions extends Actions
 {

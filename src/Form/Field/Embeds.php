@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Form\EmbeddedForm;
-use Website\Admin\Form\Field;
-use Website\Admin\Widgets\Form as WidgetForm;
+use Jewel\Admin\Form\EmbeddedForm;
+use Jewel\Admin\Form\Field;
+use Jewel\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Website\Admin\Grid\Exporters;
+namespace Jewel\Admin\Grid\Exporters;
 
-use Website\Admin\Grid;
+use Jewel\Admin\Grid;
 
 abstract class AbstractExporter implements ExporterInterface
 {
     /**
-     * @var \Website\Admin\Grid
+     * @var \Jewel\Admin\Grid
      */
     protected $grid;
 

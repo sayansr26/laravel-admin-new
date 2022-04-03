@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Layout;
+namespace Jewel\Admin\Layout;
 
-use Website\Admin\Grid;
+use Jewel\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Buildable

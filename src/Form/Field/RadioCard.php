@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 
 class RadioCard extends RadioButton
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Website\Admin\Widgets;
+namespace Jewel\Admin\Widgets;
 
 use Closure;
-use Website\Admin\Facades\Admin;
-use Website\Admin\Form as BaseForm;
-use Website\Admin\Form\Field;
-use Website\Admin\Layout\Content;
+use Jewel\Admin\Facades\Admin;
+use Jewel\Admin\Form as BaseForm;
+use Jewel\Admin\Form\Field;
+use Jewel\Admin\Layout\Content;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;

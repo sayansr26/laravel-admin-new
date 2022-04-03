@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Filter\Presenter;
+namespace Jewel\Admin\Grid\Filter\Presenter;
 
-use Website\Admin\Grid\Filter\AbstractFilter;
+use Jewel\Admin\Grid\Filter\AbstractFilter;
 
 abstract class Presenter
 {

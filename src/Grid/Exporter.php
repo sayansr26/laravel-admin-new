@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid;
+namespace Jewel\Admin\Grid;
 
-use Website\Admin\Grid;
-use Website\Admin\Grid\Exporters\CsvExporter;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

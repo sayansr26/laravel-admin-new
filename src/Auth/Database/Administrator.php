@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Auth\Database;
+namespace Jewel\Admin\Auth\Database;
 
-use Website\Admin\Traits\DefaultDatetimeFormat;
+use Jewel\Admin\Traits\DefaultDatetimeFormat;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Database\Eloquent\Model;

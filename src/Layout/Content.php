@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Layout;
+namespace Jewel\Admin\Layout;
 
 use Closure;
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 

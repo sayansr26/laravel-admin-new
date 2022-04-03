@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
-use Website\Admin\Grid\Column;
-use Website\Admin\Grid\Model;
-use Website\Admin\Grid\Tools;
+use Jewel\Admin\Grid\Column;
+use Jewel\Admin\Grid\Model;
+use Jewel\Admin\Grid\Tools;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

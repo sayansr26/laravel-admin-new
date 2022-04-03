@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Form;
+namespace Jewel\Admin\Form;
 
-use Website\Admin\Admin;
-use Website\Admin\Form;
-use Website\Admin\Widgets\Form as WidgetForm;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Form;
+use Jewel\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -92,7 +92,7 @@ class NestedForm
     protected $original = [];
 
     /**
-     * @var \Website\Admin\Form|\Website\Admin\Widgets\Form
+     * @var \Jewel\Admin\Form|\Jewel\Admin\Widgets\Form
      */
     protected $form;
 
@@ -290,7 +290,7 @@ class NestedForm
                 $value = $field->prepare($value);
             }
 
-            if (($field instanceof \Website\Admin\Form\Field\Hidden) || $value != $field->original()) {
+            if (($field instanceof \Jewel\Admin\Form\Field\Hidden) || $value != $field->original()) {
                 if (is_array($columns)) {
                     foreach ($columns as $name => $column) {
                         Arr::set($prepared, $column, $value[$name]);

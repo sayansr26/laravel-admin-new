@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Form\Concerns;
+namespace Jewel\Admin\Form\Concerns;
 
 use Closure;
 use Illuminate\Support\Arr;

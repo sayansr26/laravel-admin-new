@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Filter;
+namespace Jewel\Admin\Grid\Filter;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

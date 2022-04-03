@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid;
+namespace Jewel\Admin\Grid;
 
-use Website\Admin\Grid;
-use Website\Admin\Middleware\Pjax;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Middleware\Pjax;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;

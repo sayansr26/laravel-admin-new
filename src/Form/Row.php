@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Form;
+namespace Jewel\Admin\Form;
 
-use Website\Admin\Form;
+use Jewel\Admin\Form;
 use Illuminate\Contracts\Support\Renderable;
 
 class Row implements Renderable

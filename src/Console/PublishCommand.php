@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Console;
+namespace Jewel\Admin\Console;
 
 use Illuminate\Console\Command;
 
@@ -28,7 +28,7 @@ class PublishCommand extends Command
     public function handle()
     {
         $force = $this->option('force');
-        $options = ['--provider' => 'Website\Admin\AdminServiceProvider'];
+        $options = ['--provider' => 'Jewel\Admin\AdminServiceProvider'];
         if ($force == true) {
             $options['--force'] = true;
         }

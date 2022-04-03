@@ -2,10 +2,10 @@
 
 ## Box
 
-`Website\Admin\Widgets\Box` used to generate box components:
+`Jewel\Admin\Widgets\Box` used to generate box components:
 
 ```php
-use Website\Admin\Widgets\Box;
+use Jewel\Admin\Widgets\Box;
 
 $box = new Box('Box Title', 'Box content');
 
@@ -37,9 +37,9 @@ The `$content` parameter is the content element of the Box, which can be either 
 
 ## Collapse
 
-`Website\Admin\Widgets\Collapse` class used to generate folding components:
+`Jewel\Admin\Widgets\Collapse` class used to generate folding components:
 ```php
-use Website\Admin\Widgets\Collapse;
+use Jewel\Admin\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ echo $collapse->render();
 
 ## Form
 
-`Website\Admin\Widgets\Form` class is used to quickly build a form:
+`Jewel\Admin\Widgets\Form` class is used to quickly build a form:
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox
 
-`Website\Admin\Widgets\InfoBox` class is used to generate the information presentation block:
+`Jewel\Admin\Widgets\InfoBox` class is used to generate the information presentation block:
 
 ```php
-use Website\Admin\Widgets\InfoBox;
+use Jewel\Admin\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024');
 
@@ -101,10 +101,10 @@ Refer to the section on the `InfoBox` in the `index()` method of the home page l
 
 ## Tab component
 
-`Website\Admin\Widgets\Tab` class is used to generate the tab components:
+`Jewel\Admin\Widgets\Tab` class is used to generate the tab components:
 
 ```php
-use Website\Admin\Widgets\Tab;
+use Jewel\Admin\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ echo $tab->render();
 
 ## Table
 
-`Website\Admin\Widgets\Table` class is used to generate tables:
+`Jewel\Admin\Widgets\Table` class is used to generate tables:
 
 ```php
-use Website\Admin\Widgets\Table;
+use Jewel\Admin\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

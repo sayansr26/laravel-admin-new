@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Tools;
+namespace Jewel\Admin\Grid\Tools;
 
-use Website\Admin\Grid;
+use Jewel\Admin\Grid;
 use Illuminate\Support\Collection;
 
 class FixColumns

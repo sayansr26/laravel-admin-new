@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
 use Closure;
-use Website\Admin\Grid\Tools\TotalRow;
+use Jewel\Admin\Grid\Tools\TotalRow;
 
 trait HasTotalRow
 {

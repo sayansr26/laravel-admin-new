@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Form;
+namespace Jewel\Admin\Form;
 
-use Website\Admin\Form;
-use Website\Admin\Widgets\Form as WidgetForm;
+use Jewel\Admin\Form;
+use Jewel\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

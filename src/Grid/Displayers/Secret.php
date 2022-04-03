@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 
 class Secret extends AbstractDisplayer
 {

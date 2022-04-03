@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
 trait HasElementNames
 {

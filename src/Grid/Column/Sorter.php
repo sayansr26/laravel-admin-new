@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Column;
+namespace Jewel\Admin\Grid\Column;
 
 use Illuminate\Contracts\Support\Renderable;
 

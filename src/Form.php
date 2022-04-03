@@ -1,18 +1,18 @@
 <?php
 
-namespace Website\Admin;
+namespace Jewel\Admin;
 
 use Closure;
-use Website\Admin\Exception\Handler;
-use Website\Admin\Form\Builder;
-use Website\Admin\Form\Concerns\HandleCascadeFields;
-use Website\Admin\Form\Concerns\HasFields;
-use Website\Admin\Form\Concerns\HasHooks;
-use Website\Admin\Form\Field;
-use Website\Admin\Form\Layout\Layout;
-use Website\Admin\Form\Row;
-use Website\Admin\Form\Tab;
-use Website\Admin\Traits\ShouldSnakeAttributes;
+use Jewel\Admin\Exception\Handler;
+use Jewel\Admin\Form\Builder;
+use Jewel\Admin\Form\Concerns\HandleCascadeFields;
+use Jewel\Admin\Form\Concerns\HasFields;
+use Jewel\Admin\Form\Concerns\HasHooks;
+use Jewel\Admin\Form\Field;
+use Jewel\Admin\Form\Layout\Layout;
+use Jewel\Admin\Form\Row;
+use Jewel\Admin\Form\Tab;
+use Jewel\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -1395,7 +1395,7 @@ class Form implements Renderable
      *
      * @param Closure $callback
      *
-     * @return \Website\Admin\Form\Footer
+     * @return \Jewel\Admin\Form\Footer
      */
     public function footer(Closure $callback = null)
     {

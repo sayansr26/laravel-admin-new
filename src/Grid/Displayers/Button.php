@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
 class Button extends AbstractDisplayer
 {

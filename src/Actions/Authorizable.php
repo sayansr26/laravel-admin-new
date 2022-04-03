@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Actions;
+namespace Jewel\Admin\Actions;
 
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 

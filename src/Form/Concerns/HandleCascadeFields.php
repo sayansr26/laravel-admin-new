@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Form\Concerns;
+namespace Jewel\Admin\Form\Concerns;
 
-use Website\Admin\Form\Field;
+use Jewel\Admin\Form\Field;
 
 trait HandleCascadeFields
 {

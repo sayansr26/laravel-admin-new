@@ -3,10 +3,10 @@
 namespace DummyNamespace;
 
 use App\Http\Controllers\Controller;
-use Website\Admin\Controllers\Dashboard;
-use Website\Admin\Layout\Column;
-use Website\Admin\Layout\Content;
-use Website\Admin\Layout\Row;
+use Jewel\Admin\Controllers\Dashboard;
+use Jewel\Admin\Layout\Column;
+use Jewel\Admin\Layout\Content;
+use Jewel\Admin\Layout\Row;
 
 class HomeController extends Controller
 {

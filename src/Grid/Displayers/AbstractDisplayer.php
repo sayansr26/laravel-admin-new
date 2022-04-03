@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
-use Website\Admin\Grid;
-use Website\Admin\Grid\Column;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Grid\Column;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class AbstractDisplayer

@@ -1,11 +1,11 @@
 <?php
 
-namespace Website\Admin\Grid;
+namespace Jewel\Admin\Grid;
 
 use Closure;
-use Website\Admin\Actions\RowAction;
-use Website\Admin\Grid;
-use Website\Admin\Grid\Displayers\AbstractDisplayer;
+use Jewel\Admin\Actions\RowAction;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Grid\Displayers\AbstractDisplayer;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Support\Arr;
@@ -474,7 +474,7 @@ class Column
     public function action($action)
     {
         if (!is_subclass_of($action, RowAction::class)) {
-            throw new \InvalidArgumentException("Action class [$action] must be sub-class of [Website\Admin\Actions\GridAction]");
+            throw new \InvalidArgumentException("Action class [$action] must be sub-class of [Jewel\Admin\Actions\GridAction]");
         }
 
         $grid = $this->grid;

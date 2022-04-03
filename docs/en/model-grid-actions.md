@@ -41,7 +41,7 @@ First define the action class:
 
 namespace App\Admin\Extensions;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 
 class CheckRow
 {

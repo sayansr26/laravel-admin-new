@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Controllers;
+namespace Jewel\Admin\Controllers;
 
-use Website\Admin\Facades\Admin;
-use Website\Admin\Form;
-use Website\Admin\Layout\Content;
+use Jewel\Admin\Facades\Admin;
+use Jewel\Admin\Form;
+use Jewel\Admin\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;

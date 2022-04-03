@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Actions;
+namespace Jewel\Admin\Grid\Actions;
 
-use Website\Admin\Actions\RowAction;
+use Jewel\Admin\Actions\RowAction;
 
 class Show extends RowAction
 {

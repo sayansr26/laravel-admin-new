@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
-use Website\Admin\Grid;
-use Website\Admin\Grid\Exporter;
-use Website\Admin\Grid\Exporters\AbstractExporter;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Grid\Exporter;
+use Jewel\Admin\Grid\Exporters\AbstractExporter;
 
 trait CanExportGrid
 {

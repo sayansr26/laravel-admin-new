@@ -1,12 +1,12 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Admin;
-use Website\Admin\Form;
-use Website\Admin\Form\Field;
-use Website\Admin\Form\NestedForm;
-use Website\Admin\Widgets\Form as WidgetForm;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Form;
+use Jewel\Admin\Form\Field;
+use Jewel\Admin\Form\NestedForm;
+use Jewel\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Database\Eloquent\Relations\HasMany as Relation;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Arr;

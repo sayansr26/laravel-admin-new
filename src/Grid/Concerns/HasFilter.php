@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
 use Closure;
-use Website\Admin\Grid\Filter;
+use Jewel\Admin\Grid\Filter;
 use Illuminate\Support\Collection;
 
 trait HasFilter
@@ -11,7 +11,7 @@ trait HasFilter
     /**
      * The grid Filter.
      *
-     * @var \Website\Admin\Grid\Filter
+     * @var \Jewel\Admin\Grid\Filter
      */
     protected $filter;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Tree;
+namespace Jewel\Admin\Tree;
 
-use Website\Admin\Tree;
+use Jewel\Admin\Tree;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

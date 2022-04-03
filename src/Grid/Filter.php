@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Grid;
+namespace Jewel\Admin\Grid;
 
-use Website\Admin\Grid\Filter\AbstractFilter;
-use Website\Admin\Grid\Filter\Layout\Layout;
-use Website\Admin\Grid\Filter\Scope;
+use Jewel\Admin\Grid\Filter\AbstractFilter;
+use Jewel\Admin\Grid\Filter\Layout\Layout;
+use Jewel\Admin\Grid\Filter\Scope;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

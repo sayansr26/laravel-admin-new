@@ -64,7 +64,7 @@
         });
     };
 
-@if($relation == \Website\Admin\Grid\Displayers\BelongsTo::class)
+@if($relation == \Jewel\Admin\Grid\Displayers\BelongsTo::class)
 
     var selected = null;
 

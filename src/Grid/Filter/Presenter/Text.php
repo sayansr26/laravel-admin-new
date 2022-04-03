@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Filter\Presenter;
+namespace Jewel\Admin\Grid\Filter\Presenter;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 
 class Text extends Presenter
 {

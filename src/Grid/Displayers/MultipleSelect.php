@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class MultipleSelect extends AbstractDisplayer

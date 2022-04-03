@@ -6,7 +6,7 @@
 
 然后在`app/Admin/bootstrap.php`引入组件：
 ```php
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 
 Admin::js('/vendor/chartjs/dist/Chart.min.js');
 

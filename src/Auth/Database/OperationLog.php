@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Auth\Database;
+namespace Jewel\Admin\Auth\Database;
 
-use Website\Admin\Traits\DefaultDatetimeFormat;
+use Jewel\Admin\Traits\DefaultDatetimeFormat;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

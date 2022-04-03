@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
 use Illuminate\Contracts\Support\Arrayable;
 

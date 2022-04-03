@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Console;
+namespace Jewel\Admin\Console;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;

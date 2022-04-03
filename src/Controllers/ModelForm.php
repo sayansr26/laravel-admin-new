@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Controllers;
+namespace Jewel\Admin\Controllers;
 
 /**
  * Trait ModelForm.

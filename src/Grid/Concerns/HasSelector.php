@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
-use Website\Admin\Grid;
-use Website\Admin\Grid\Tools\Selector;
+use Jewel\Admin\Grid;
+use Jewel\Admin\Grid\Tools\Selector;
 
 /**
  * @mixin Grid

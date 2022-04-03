@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Actions\Interactor;
+namespace Jewel\Admin\Actions\Interactor;
 
-use Website\Admin\Actions\Action;
+use Jewel\Admin\Actions\Action;
 
 abstract class Interactor
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Widgets;
+namespace Jewel\Admin\Widgets;
 
-use Website\Admin\Widgets\Navbar\RefreshButton;
+use Jewel\Admin\Widgets\Navbar\RefreshButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

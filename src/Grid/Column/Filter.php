@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Column;
+namespace Jewel\Admin\Grid\Column;
 
-use Website\Admin\Grid\Column;
-use Website\Admin\Grid\Model;
+use Jewel\Admin\Grid\Column;
+use Jewel\Admin\Grid\Model;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 

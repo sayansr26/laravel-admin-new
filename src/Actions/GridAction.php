@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Actions;
+namespace Jewel\Admin\Actions;
 
-use Website\Admin\Grid;
+use Jewel\Admin\Grid;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Http\Request;
 

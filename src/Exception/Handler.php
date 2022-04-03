@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Exception;
+namespace Jewel\Admin\Exception;
 
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\ViewErrorBag;

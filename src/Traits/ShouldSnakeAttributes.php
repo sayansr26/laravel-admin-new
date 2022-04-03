@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Traits;
+namespace Jewel\Admin\Traits;
 
-use Website\Admin\Grid\Model as GridModel;
+use Jewel\Admin\Grid\Model as GridModel;
 
 trait ShouldSnakeAttributes
 {

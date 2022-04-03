@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Middleware;
+namespace Jewel\Admin\Middleware;
 
 use Closure;
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 
 class Authenticate
 {

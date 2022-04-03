@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Middleware;
+namespace Jewel\Admin\Middleware;
 
 use Illuminate\Http\Request;
 

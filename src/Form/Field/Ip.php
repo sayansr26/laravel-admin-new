@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
 class Ip extends Text
 {

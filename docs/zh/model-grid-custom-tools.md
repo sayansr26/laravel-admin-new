@@ -9,8 +9,8 @@
 
 namespace App\Admin\Extensions\Tools;
 
-use Website\Admin\Admin;
-use Website\Admin\Grid\Tools\AbstractTool;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Grid\Tools\AbstractTool;
 use Illuminate\Support\Facades\Request;
 
 class UserGender extends AbstractTool
@@ -98,7 +98,7 @@ $grid->tools(function ($tools) {
 
 namespace App\Admin\Extensions\Tools;
 
-use Website\Admin\Grid\Tools\BatchAction;
+use Jewel\Admin\Grid\Tools\BatchAction;
 
 class ReleasePost extends BatchAction
 {

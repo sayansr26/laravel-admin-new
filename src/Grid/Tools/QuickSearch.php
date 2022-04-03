@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Tools;
+namespace Jewel\Admin\Grid\Tools;
 
-use Website\Admin\Grid\Concerns\HasQuickSearch;
+use Jewel\Admin\Grid\Concerns\HasQuickSearch;
 use Illuminate\Support\Arr;
 
 class QuickSearch extends AbstractTool

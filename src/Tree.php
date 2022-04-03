@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin;
+namespace Jewel\Admin;
 
 use Closure;
-use Website\Admin\Tree\Tools;
+use Jewel\Admin\Tree\Tools;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 

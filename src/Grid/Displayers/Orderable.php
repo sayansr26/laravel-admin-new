@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 
 class Orderable extends AbstractDisplayer
 {

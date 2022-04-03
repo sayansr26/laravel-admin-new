@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Form;
+use Jewel\Admin\Form;
 
 class Captcha extends Text
 {

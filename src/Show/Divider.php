@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Show;
+namespace Jewel\Admin\Show;
 
 class Divider extends Field
 {

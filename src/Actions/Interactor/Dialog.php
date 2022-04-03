@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Actions\Interactor;
+namespace Jewel\Admin\Actions\Interactor;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 
 class Dialog extends Interactor
 {

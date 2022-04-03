@@ -3,9 +3,9 @@
  * Copyright (c) 2019. Mallto.Co.Ltd.<mall-to.com> All rights reserved.
  */
 
-namespace Website\Admin\Form\Layout;
+namespace Jewel\Admin\Form\Layout;
 
-use Website\Admin\Form;
+use Jewel\Admin\Form;
 use Illuminate\Support\Collection;
 
 class Layout

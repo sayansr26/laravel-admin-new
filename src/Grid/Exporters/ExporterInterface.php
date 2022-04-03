@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Exporters;
+namespace Jewel\Admin\Grid\Exporters;
 
 interface ExporterInterface
 {

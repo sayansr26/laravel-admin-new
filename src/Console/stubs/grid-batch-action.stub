@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Website\Admin\Actions\BatchAction;
+use Jewel\Admin\Actions\BatchAction;
 use Illuminate\Database\Eloquent\Collection;
 
 class DummyClass extends BatchAction

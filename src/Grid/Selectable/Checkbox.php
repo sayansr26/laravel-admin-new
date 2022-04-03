@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Selectable;
+namespace Jewel\Admin\Grid\Selectable;
 
-use Website\Admin\Grid\Displayers\AbstractDisplayer;
+use Jewel\Admin\Grid\Displayers\AbstractDisplayer;
 
 class Checkbox extends AbstractDisplayer
 {

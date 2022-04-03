@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Widgets;
+namespace Jewel\Admin\Widgets;
 
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 class Tab extends Widget implements Renderable

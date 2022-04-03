@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Traits;
+namespace Jewel\Admin\Traits;
 
 use Illuminate\Support\Str;
 

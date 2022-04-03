@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 
 trait CanDoubleClick
 {

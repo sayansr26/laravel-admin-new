@@ -1,6 +1,6 @@
 <?php
-namespace Website\Admin\Controllers;
-use Website\Admin\Layout\Content;
+namespace Jewel\Admin\Controllers;
+use Jewel\Admin\Layout\Content;
 use Illuminate\Routing\Controller;
 
 class AdminController extends Controller

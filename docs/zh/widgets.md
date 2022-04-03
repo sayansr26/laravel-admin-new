@@ -2,10 +2,10 @@
 
 ## Box组件
 
-`Website\Admin\Widgets\Box`用来生成box组件：
+`Jewel\Admin\Widgets\Box`用来生成box组件：
 
 ```php
-use Website\Admin\Widgets\Box;
+use Jewel\Admin\Widgets\Box;
 
 $box = new Box('Box标题', 'Box内容');
 
@@ -37,9 +37,9 @@ echo $box;
 
 ## Collapse组件
 
-`Website\Admin\Widgets\Collapse`类用来生成折叠插件：
+`Jewel\Admin\Widgets\Collapse`类用来生成折叠插件：
 ```php
-use Website\Admin\Widgets\Collapse;
+use Jewel\Admin\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ echo $collapse->render();
 
 ## 表单
 
-`Website\Admin\Widgets\Form`类用来快速构建表单：
+`Jewel\Admin\Widgets\Form`类用来快速构建表单：
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox组件
 
-`Website\Admin\Widgets\InfoBox`类用来生成信息展示块：
+`Jewel\Admin\Widgets\InfoBox`类用来生成信息展示块：
 
 ```php
-use Website\Admin\Widgets\InfoBox;
+use Jewel\Admin\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024');
 
@@ -101,10 +101,10 @@ echo $infoBox->render();
 
 ## Tab组件
 
-`Website\Admin\Widgets\Tab`类用来生成选项卡组件：
+`Jewel\Admin\Widgets\Tab`类用来生成选项卡组件：
 
 ```php
-use Website\Admin\Widgets\Tab;
+use Jewel\Admin\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ echo $tab->render();
 
 ## Table
 
-`Website\Admin\Widgets\Table`类用来生成表格：
+`Jewel\Admin\Widgets\Table`类用来生成表格：
 
 ```php
-use Website\Admin\Widgets\Table;
+use Jewel\Admin\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

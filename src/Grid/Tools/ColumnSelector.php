@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Tools;
+namespace Jewel\Admin\Grid\Tools;
 
-use Website\Admin\Admin;
-use Website\Admin\Grid;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Grid;
 use Illuminate\Support\Collection;
 
 class ColumnSelector extends AbstractTool

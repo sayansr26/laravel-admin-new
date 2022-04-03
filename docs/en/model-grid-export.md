@@ -10,7 +10,7 @@ First install it:
 ```shell
 composer require maatwebsite/excel:~2.1.0
 
-php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider"
+php artisan vendor:publish --provider="MaatJewel\Excel\ExcelServiceProvider"
 ```
 
 And then create a new custom export class, such as `app/Admin/Extensions/ExcelExpoter.php`:
@@ -19,8 +19,8 @@ And then create a new custom export class, such as `app/Admin/Extensions/ExcelEx
 
 namespace App\Admin\Extensions;
 
-use Website\Admin\Grid\Exporters\AbstractExporter;
-use Maatwebsite\Excel\Facades\Excel;
+use Jewel\Admin\Grid\Exporters\AbstractExporter;
+use MaatJewel\Excel\Facades\Excel;
 use Illuminate\Support\Arr;
 
 class ExcelExpoter extends AbstractExporter

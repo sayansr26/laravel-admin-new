@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Displayers;
+namespace Jewel\Admin\Grid\Displayers;
 
-use Website\Admin\Admin;
-use Website\Admin\Grid\Simple;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Grid\Simple;
 use Illuminate\Contracts\Support\Renderable;
 
 class Modal extends AbstractDisplayer

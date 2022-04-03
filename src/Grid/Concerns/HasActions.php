@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
 use Closure;
-use Website\Admin\Grid;
+use Jewel\Admin\Grid;
 
 trait HasActions
 {

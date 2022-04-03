@@ -1,11 +1,11 @@
 <?php
 
-namespace Website\Admin\Grid\Exporters;
+namespace Jewel\Admin\Grid\Exporters;
 
 use Illuminate\Support\Str;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithHeadings;
+use MaatJewel\Excel\Concerns\Exportable;
+use MaatJewel\Excel\Concerns\FromQuery;
+use MaatJewel\Excel\Concerns\WithHeadings;
 
 abstract class ExcelExporter extends AbstractExporter implements FromQuery, WithHeadings
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Website\Admin\Controllers;
+namespace Jewel\Admin\Controllers;
 
-use Website\Admin\Form;
-use Website\Admin\Layout\Column;
-use Website\Admin\Layout\Content;
-use Website\Admin\Layout\Row;
-use Website\Admin\Tree;
-use Website\Admin\Widgets\Box;
+use Jewel\Admin\Form;
+use Jewel\Admin\Layout\Column;
+use Jewel\Admin\Layout\Content;
+use Jewel\Admin\Layout\Row;
+use Jewel\Admin\Tree;
+use Jewel\Admin\Widgets\Box;
 use Illuminate\Routing\Controller;
 
 class MenuController extends Controller
@@ -30,7 +30,7 @@ class MenuController extends Controller
                 $row->column(6, $this->treeView()->render());
 
                 $row->column(6, function (Column $column) {
-                    $form = new \Website\Admin\Widgets\Form();
+                    $form = new \Jewel\Admin\Widgets\Form();
                     $form->action(admin_url('auth/menu'));
 
                     $menuModel = config('admin.database.menu_model');
@@ -65,7 +65,7 @@ class MenuController extends Controller
     }
 
     /**
-     * @return \Website\Admin\Tree
+     * @return \Jewel\Admin\Tree
      */
     protected function treeView()
     {

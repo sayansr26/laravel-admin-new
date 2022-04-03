@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Widgets;
+namespace Jewel\Admin\Widgets;
 
 class StepForm extends Form
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Website\Admin;
+namespace Jewel\Admin;
 
 use Closure;
-use Website\Admin\Exception\Handler;
-use Website\Admin\Grid\Column;
-use Website\Admin\Grid\Concerns;
-use Website\Admin\Grid\Displayers;
-use Website\Admin\Grid\Model;
-use Website\Admin\Grid\Row;
-use Website\Admin\Grid\Tools;
-use Website\Admin\Traits\ShouldSnakeAttributes;
+use Jewel\Admin\Exception\Handler;
+use Jewel\Admin\Grid\Column;
+use Jewel\Admin\Grid\Concerns;
+use Jewel\Admin\Grid\Displayers;
+use Jewel\Admin\Grid\Model;
+use Jewel\Admin\Grid\Row;
+use Jewel\Admin\Grid\Tools;
+use Jewel\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -43,7 +43,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Website\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \Jewel\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 

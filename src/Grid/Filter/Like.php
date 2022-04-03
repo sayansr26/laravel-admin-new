@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Filter;
+namespace Jewel\Admin\Grid\Filter;
 
 use Illuminate\Support\Arr;
 

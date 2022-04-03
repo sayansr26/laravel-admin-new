@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Admin;
-use Website\Admin\Form;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Form;
 use Illuminate\Support\Arr;
 
 /**

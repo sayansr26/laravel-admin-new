@@ -25,7 +25,7 @@ The corresponding model is `app/Models/Category.php`:
 
 namespace App\Models\Demo;
 
-use Website\Admin\Traits\ModelTree;
+use Jewel\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -43,7 +43,7 @@ Table structure in the three fields `parent_id`,` order`, `title` field name can
 
 namespace App\Models\Demo;
 
-use Website\Admin\Traits\ModelTree;
+use Jewel\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -74,11 +74,11 @@ namespace App\Admin\Controllers\Demo;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
-use Website\Admin\Form;
-use Website\Admin\Facades\Admin;
-use Website\Admin\Layout\Content;
-use Website\Admin\Controllers\ModelForm;
-use Website\Admin\Tree;
+use Jewel\Admin\Form;
+use Jewel\Admin\Facades\Admin;
+use Jewel\Admin\Layout\Content;
+use Jewel\Admin\Controllers\ModelForm;
+use Jewel\Admin\Tree;
 
 class CategoryController extends Controller
 {

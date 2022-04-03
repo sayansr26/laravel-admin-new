@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Facades\Admin;
-use Website\Admin\Form\Field;
+use Jewel\Admin\Facades\Admin;
+use Jewel\Admin\Form\Field;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

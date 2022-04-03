@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Tools;
+namespace Jewel\Admin\Grid\Tools;
 
 class BatchDelete extends BatchAction
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Widgets;
+namespace Jewel\Admin\Widgets;
 
 use Illuminate\Contracts\Support\Renderable;
 
@@ -70,7 +70,7 @@ class MultipleSteps implements Renderable
         $class = $this->steps[$this->current];
 
         if (!is_subclass_of($class, StepForm::class)) {
-            admin_error("Class [{$class}] must be a sub-class of [Website\Admin\Widgets\StepForm].");
+            admin_error("Class [{$class}] must be a sub-class of [Jewel\Admin\Widgets\StepForm].");
 
             return;
         }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Filter\Presenter;
+namespace Jewel\Admin\Grid\Filter\Presenter;
 
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 
 class MultipleSelect extends Select
 {

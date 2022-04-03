@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Layout;
+namespace Jewel\Admin\Layout;
 
 interface Buildable
 {

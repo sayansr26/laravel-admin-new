@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid\Selectable;
+namespace Jewel\Admin\Grid\Selectable;
 
 use Illuminate\Contracts\Support\Renderable;
 

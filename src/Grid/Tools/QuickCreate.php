@@ -1,13 +1,13 @@
 <?php
 
-namespace Website\Admin\Grid\Tools;
+namespace Jewel\Admin\Grid\Tools;
 
-use Website\Admin\Admin;
-use Website\Admin\Form\Field;
-use Website\Admin\Form\Field\MultipleSelect;
-use Website\Admin\Form\Field\Select;
-use Website\Admin\Form\Field\Text;
-use Website\Admin\Grid;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Form\Field;
+use Jewel\Admin\Form\Field\MultipleSelect;
+use Jewel\Admin\Form\Field\Select;
+use Jewel\Admin\Form\Field\Text;
+use Jewel\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

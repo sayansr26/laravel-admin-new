@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Actions;
+namespace Jewel\Admin\Actions;
 
 class SweatAlert2
 {

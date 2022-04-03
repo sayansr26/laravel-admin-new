@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Auth;
+namespace Jewel\Admin\Auth;
 
-use Website\Admin\Facades\Admin;
-use Website\Admin\Middleware\Pjax;
+use Jewel\Admin\Facades\Admin;
+use Jewel\Admin\Middleware\Pjax;
 
 class Permission
 {

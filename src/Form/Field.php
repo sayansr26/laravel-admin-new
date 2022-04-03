@@ -1,11 +1,11 @@
 <?php
 
-namespace Website\Admin\Form;
+namespace Jewel\Admin\Form;
 
 use Closure;
-use Website\Admin\Admin;
-use Website\Admin\Form;
-use Website\Admin\Widgets\Form as WidgetForm;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Form;
+use Jewel\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
@@ -1522,7 +1522,7 @@ class Field implements Renderable
     /**
      * @param \Closure $callback
      *
-     * @return \Website\Admin\Form\Field
+     * @return \Jewel\Admin\Form\Field
      */
     public function with(Closure $callback): self
     {

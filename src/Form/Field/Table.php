@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Form\NestedForm;
-use Website\Admin\Widgets\Form as WidgetForm;
+use Jewel\Admin\Form\NestedForm;
+use Jewel\Admin\Widgets\Form as WidgetForm;
 
 class Table extends HasMany
 {

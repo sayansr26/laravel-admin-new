@@ -1,12 +1,12 @@
 <?php
 
-namespace Website\Admin;
+namespace Jewel\Admin;
 
-use Website\Admin\Show\Divider;
-use Website\Admin\Show\Field;
-use Website\Admin\Show\Panel;
-use Website\Admin\Show\Relation;
-use Website\Admin\Traits\ShouldSnakeAttributes;
+use Jewel\Admin\Show\Divider;
+use Jewel\Admin\Show\Field;
+use Jewel\Admin\Show\Panel;
+use Jewel\Admin\Show\Relation;
+use Jewel\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

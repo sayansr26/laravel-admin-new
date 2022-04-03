@@ -1,13 +1,13 @@
 <?php
 
-namespace Website\Admin;
+namespace Jewel\Admin;
 
 use Closure;
-use Website\Admin\Auth\Database\Menu;
-use Website\Admin\Controllers\AuthController;
-use Website\Admin\Layout\Content;
-use Website\Admin\Traits\HasAssets;
-use Website\Admin\Widgets\Navbar;
+use Jewel\Admin\Auth\Database\Menu;
+use Jewel\Admin\Controllers\AuthController;
+use Jewel\Admin\Layout\Content;
+use Jewel\Admin\Traits\HasAssets;
+use Jewel\Admin\Widgets\Navbar;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
@@ -76,7 +76,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Website\Admin\Grid
+     * @return \Jewel\Admin\Grid
      *
      * @deprecated since v1.6.1
      */
@@ -89,7 +89,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Website\Admin\Form
+     * @return \Jewel\Admin\Form
      *
      *  @deprecated since v1.6.1
      */
@@ -104,7 +104,7 @@ class Admin
      * @param $model
      * @param Closure|null $callable
      *
-     * @return \Website\Admin\Tree
+     * @return \Jewel\Admin\Tree
      */
     public function tree($model, Closure $callable = null)
     {
@@ -129,7 +129,7 @@ class Admin
     /**
      * @param Closure $callable
      *
-     * @return \Website\Admin\Layout\Content
+     * @return \Jewel\Admin\Layout\Content
      *
      * @deprecated since v1.6.1
      */
@@ -276,7 +276,7 @@ class Admin
     /**
      * Get navbar object.
      *
-     * @return \Website\Admin\Widgets\Navbar
+     * @return \Jewel\Admin\Widgets\Navbar
      */
     public function getNavbar()
     {
@@ -314,7 +314,7 @@ class Admin
         app('router')->group($attributes, function ($router) {
 
             /* @var \Illuminate\Support\Facades\Route $router */
-            $router->namespace('\Website\Admin\Controllers')->group(function ($router) {
+            $router->namespace('\Jewel\Admin\Controllers')->group(function ($router) {
 
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource('auth/users', 'UserController')->names('admin.auth.users');

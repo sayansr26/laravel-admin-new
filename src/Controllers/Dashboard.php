@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Controllers;
+namespace Jewel\Admin\Controllers;
 
-use Website\Admin\Admin;
+use Jewel\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class Dashboard

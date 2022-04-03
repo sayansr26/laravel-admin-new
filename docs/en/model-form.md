@@ -1,6 +1,6 @@
 # Model-Form
 
-The `Website\Admin\Form` class is used to generate a data model-based form. For example, there is a` movies` table in the database
+The `Jewel\Admin\Form` class is used to generate a data model-based form. For example, there is a` movies` table in the database
 
 ```sql
 CREATE TABLE `movies` (
@@ -23,8 +23,8 @@ The corresponding data model is `App\Models\Movie`, and the following code can g
 ```php
 
 use App\Models\Movie;
-use Website\Admin\Form;
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Form;
+use Jewel\Admin\Facades\Admin;
 
 $grid = Admin::form(Movie::class, function(Form $grid){
 

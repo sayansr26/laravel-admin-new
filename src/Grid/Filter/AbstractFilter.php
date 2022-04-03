@@ -1,15 +1,15 @@
 <?php
 
-namespace Website\Admin\Grid\Filter;
+namespace Jewel\Admin\Grid\Filter;
 
-use Website\Admin\Grid\Filter;
-use Website\Admin\Grid\Filter\Presenter\Checkbox;
-use Website\Admin\Grid\Filter\Presenter\DateTime;
-use Website\Admin\Grid\Filter\Presenter\MultipleSelect;
-use Website\Admin\Grid\Filter\Presenter\Presenter;
-use Website\Admin\Grid\Filter\Presenter\Radio;
-use Website\Admin\Grid\Filter\Presenter\Select;
-use Website\Admin\Grid\Filter\Presenter\Text;
+use Jewel\Admin\Grid\Filter;
+use Jewel\Admin\Grid\Filter\Presenter\Checkbox;
+use Jewel\Admin\Grid\Filter\Presenter\DateTime;
+use Jewel\Admin\Grid\Filter\Presenter\MultipleSelect;
+use Jewel\Admin\Grid\Filter\Presenter\Presenter;
+use Jewel\Admin\Grid\Filter\Presenter\Radio;
+use Jewel\Admin\Grid\Filter\Presenter\Select;
+use Jewel\Admin\Grid\Filter\Presenter\Text;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

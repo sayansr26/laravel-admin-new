@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Admin\Form;
+namespace Jewel\Admin\Form;
 
-use Website\Admin\Admin;
-use Website\Admin\Form;
-use Website\Admin\Form\Field\Hidden;
+use Jewel\Admin\Admin;
+use Jewel\Admin\Form;
+use Jewel\Admin\Form\Field\Hidden;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;

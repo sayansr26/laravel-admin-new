@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Grid\Filter\Presenter;
+namespace Jewel\Admin\Grid\Filter\Presenter;
 
-use Website\Admin\Facades\Admin;
+use Jewel\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Arrayable;
 
 class Radio extends Presenter

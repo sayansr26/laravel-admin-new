@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Auth\Database;
+namespace Jewel\Admin\Auth\Database;
 
-use Website\Admin\Traits\DefaultDatetimeFormat;
-use Website\Admin\Traits\ModelTree;
+use Jewel\Admin\Traits\DefaultDatetimeFormat;
+use Jewel\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\DB;

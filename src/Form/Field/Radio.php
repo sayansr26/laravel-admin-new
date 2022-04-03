@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin\Form\Field;
+namespace Jewel\Admin\Form\Field;
 
-use Website\Admin\Form\Field;
+use Jewel\Admin\Form\Field;
 use Illuminate\Contracts\Support\Arrayable;
 
 class Radio extends Field

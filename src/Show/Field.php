@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Show;
+namespace Jewel\Admin\Show;
 
-use Website\Admin\Show;
-use Website\Admin\Widgets\Carousel;
+use Jewel\Admin\Show;
+use Jewel\Admin\Widgets\Carousel;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

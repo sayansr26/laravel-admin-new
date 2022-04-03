@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Grid;
+namespace Jewel\Admin\Grid;
 
 use Closure;
 use Illuminate\Contracts\Support\Htmlable;

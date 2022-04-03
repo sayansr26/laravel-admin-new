@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Admin\Grid\Concerns;
+namespace Jewel\Admin\Grid\Concerns;
 
 use Closure;
-use Website\Admin\Grid\Tools\Footer;
+use Jewel\Admin\Grid\Tools\Footer;
 
 trait HasFooter
 {

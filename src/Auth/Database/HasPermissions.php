@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Admin\Auth\Database;
+namespace Jewel\Admin\Auth\Database;
 
 use Illuminate\Support\Collection;
 

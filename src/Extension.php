@@ -1,8 +1,8 @@
 <?php
 
-namespace Website\Admin;
+namespace Jewel\Admin;
 
-use Website\Admin\Auth\Database\Permission;
+use Jewel\Admin\Auth\Database\Permission;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
